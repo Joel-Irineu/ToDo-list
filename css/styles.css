@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: #262626;
+}
+h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: #f3f3f3;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.styling{
+    font-weight: bold;
+    color: #7ff198;
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_div .input{
+    padding: .5rem 1rem;
+    height: 50px;
+    outline: none;
+    background: #f3f3f3;
+    color: #262626;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: .25rem;
+    border-radius: 25px;
+    border: none;
+}
+.addButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #66f186d7;
+    color: #262626;
+    margin: .25px
+}
+.addButton:hover{
+    background: #7ff198;
+    transition: .4s ease-out;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #f3f3f3;
+}
+.item_input{
+    background: none;
+    color: #f3f3f3;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+    outline: none;
+}
+.editButton, .removeButton{
+    font-size: 1.4rem;
+    margin: 0 .5rem;
+    border: none;
+    padding: 2px;
+    color: #262626;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.editButton{
+    background: #f4f650;
+}
+.removeButton{
+    background: #f66464;
+}
+.editButton:hover{
+    background: #fdffa0;
+    transition: .4s ease-out;
+}
+.removeButton:hover{
+    background: #f17f7f;
+    transition: .4s ease-out;
+}
