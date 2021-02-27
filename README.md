@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  ☕ #100DaysOFCode
+  ☕ #CodeAndCoffee
 </h4>
 
 <p align="center">
@@ -28,9 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Projeto faz parte do desafio 100DaysOfCode, que tem como objetivo estimular o aprendizado continuo do programador, Para o projeto 004/100 fiz um TODO list para organizar os próximos projetos que irei criar no decorrer do desafio!
-
-Você pode saber mais sobre o desafio em: https://www.100daysofcode.com/
+O Projeto é um TODO list que são listas de todas as tarefas que você precisa realizar, ou seja, elas listam tudo que você tem a fazer
 
 
 ## :memo: Licença
